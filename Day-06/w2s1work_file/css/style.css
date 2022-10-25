@@ -1,0 +1,164 @@
+/* Web Fonts ----------------------- */
+
+
+/* @font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+} */
+
+@font-face {
+    font-family: "abolition";
+    src: url('../fonts/abolition-regular-webfont.ttf') format('woff');
+}
+
+
+/* Base Styles --------------------- */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 1.25em;
+    /* 20px on most screens */
+}
+
+img {
+    width: 100%;
+    /* responsive images */
+}
+
+
+/* Main Styles --------------------- */
+
+h1 {
+    font-family: 'abolition';
+    font-size: 64px;
+    text-shadow: 10px 10px 10px blue, 20px 20px 20px red;
+    /*
+         line-height: 50px;
+        letter-spacing: 30px; 
+        */
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    hyphens: auto;
+}
+
+#top {
+    text-align: center;
+    padding: 25vh;
+    background-color: coral;
+    color: white;
+    background: url(../img/mountains.jpg) center / cover rgb(214, 185, 103);
+    background-blend-mode: multiply;
+}
+
+#wildlife h2 {
+    font-family: 'abolition';
+    font-size: 64px;
+    /* width: 500px;
+    margin: auto; */
+}
+
+#wildlife p {
+    padding-top: 50px;
+    /* width: 600px;
+    height: 300px;
+    margin: auto; */
+}
+
+#wildlife {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 12px 12px 0 0;
+    border-color: orange;
+    padding: 25vh;
+    border-top: 10px solid orange;
+    margin: auto 0;
+    color: white;
+    box-shadow: inset 0 3px 10px rgb(0 0 0 / 0.2);
+    background: url(../img/bear.jpg) center / cover rgba(124, 97, 97, 0.2);
+    font-family: "abolition";
+    margin-bottom: 50px;
+}
+
+#wildlife a {
+    color: orange
+}
+
+
+/* Media Queries ------------------- */
+
+.column {
+    display: inline-block;
+    width: 47%;
+    font-family: "roboto";
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    margin-right: -4px;
+}
+
+.column:first-child {
+    margin-right: calc(4%-4px);
+    margin-bottom: 0;
+}
+
+.column ul li a {
+    color: orange;
+    text-decoration: none;
+}
+
+.column img {
+    height: 300px;
+    border-radius: 10px;
+}
+
+section {
+    border-bottom: 1px dashed #999;
+    padding: 4rem 0;
+}
+
+.inline {
+    display: inline-block;
+    max-width: 1000px;
+    position: relative;
+    margin-left: 50px;
+}
+
+#col1 {
+    position: absolute;
+    left: 50%;
+    right: 50%;
+}
+
+#col2 {
+    position: absolute;
+    left: 50%;
+}
+
+.callout {
+    display: block;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: -2px 2px 3px black;
+    padding: 7.5px 50px 7.5px 50px;
+    border: 0.2px solid gray;
+    text-align: center;
+    color: white;
+    background: linear-gradient(125deg, white, coral, coral);
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+.callout:hover {
+    color: red;
+}
+
+.intro {
+    display: block;
+    width: 500px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}

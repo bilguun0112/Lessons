@@ -1,0 +1,49 @@
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 769px) {}
+
+@media (min-width: 1025px) {}
+
+* {
+    box-sizing: border-box;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col {
+    display: flex;
+    background: #eee;
+    margin: 0 10px 0 10px;
+    padding: 15px 5px 0 20px;
+    width: 30%;
+    border-radius: 20px;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.btn {
+    display: flex;
+    width: 130px;
+    height: 40px;
+    background-color: rgb(129, 209, 182);
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: center;
+    color: #fff;
+    border-radius: 10px;
+}

@@ -1,0 +1,31 @@
+hmtl {
+    font-size: 16px;
+}
+
+#hemjee {
+    background-color: lightgoldenrodyellow;
+    width: 500px;
+    height: 500px;
+    font-size: 1.5rem;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+.ulaan {
+    color: red;
+}
+
+.shar {
+    color: orange;
+}
+
+#blue {
+    color: blue;
+}
+
+#z {
+    font-style: italic;
+    font-weight: bold;
+}

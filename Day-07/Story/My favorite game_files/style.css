@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Roboto&display=swap');
+main {
+    box-sizing: border-box;
+    max-width: 1000px;
+}
+
+body {
+    background: #EAFAF1;
+}
+
+.header {
+    font-family: "alkalami", serif;
+    width: 100%;
+    align-items: center;
+}
+
+.header h1 {
+    text-align: center;
+    font-size: 64px;
+    color: darkcyan;
+    text-shadow: 5px 5px 5px gray;
+}
+
+.header img {
+    display: block;
+    margin: 0 auto;
+    width: 800px;
+    height: 600px;
+    border-radius: 50px;
+}
+
+.text1 {
+    width: 800px;
+    display: block;
+    margin: 0 auto;
+    font-size: 1.3rem;
+}
+
+.text1 h2 {
+    text-align: center;
+}
+
+.text2 {
+    width: 800px;
+    display: block;
+    margin: 0 auto;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.text2 img {
+    width: 800px;
+    height: 500px;
+    border-radius: 50px;
+}

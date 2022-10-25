@@ -1,0 +1,33 @@
+.gradient {
+    width: 200px;
+    height: 100px;
+    border: 2px solid gray;
+    /* background: linear-gradient(to right, red orange, yellow, green, blue, purple); */
+    background: linear-gradient(to left, rgba(250, 100, 50, 0.2) 20%, rgba(214, 207, 205, 0.2) 80%);
+}
+
+.test {
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    box-shadow: -2px 2px 3px black;
+    border: 0.2px solid gray;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 7.5px;
+    color: white;
+    background: linear-gradient(to bottom right, rgba(155, 129, 122, 0.342) 15%, rgba(216, 66, 17, 0.774) 85%);
+    font-size: 25px;
+}
+
+.background-image {
+    background-image: url(./hand-painted-watercolor-pastel-sky-background_23-2148902771.webp);
+    height: 500px;
+    background-repeat: no-repeat;
+}
+
+.background {
+    background-image: url(./hand-painted-watercolor-pastel-sky-background_23-2148902771.webp);
+    height: 500px;
+    background-repeat: no-repeat;
+}

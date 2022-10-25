@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Roboto&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+main {
+    box-sizing: border-box;
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.logo img {
+    border-radius: 50%;
+    max-width: 250px;
+    height: 250px;
+    position: absolute;
+    top: -20px;
+    left: -200px;
+}
+
+body {
+    background: #EAFAF1;
+}
+
+.header {
+    font-family: "alkalami", serif;
+    width: 100%;
+    align-items: center;
+}
+
+.header h1 {
+    text-align: center;
+    font-size: 4rem;
+    color: darkcyan;
+    text-shadow: 5px 5px 5px gray;
+}
+
+.header img {
+    display: block;
+    margin: 0 auto;
+    width: 800px;
+    height: 600px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 0px cornflowerblue;
+}
+
+.text1 {
+    max-width: 800px;
+    display: block;
+    margin: 0 auto;
+    font-size: 1.3rem;
+}
+
+.text1 h2 {
+    text-align: center;
+}
+
+.text2 {
+    width: 800px;
+    display: block;
+    margin: 0 auto;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.text2 img {
+    width: 800px;
+    height: 500px;
+    border-radius: 50px;
+}
+
+.inline {
+    height: 600px;
+}
+
+.col1 {
+    display: inline-block;
+    width: 45%;
+    background: url(./dota2logo.jpeg) center / cover;
+    height: 500px;
+}
+
+.col2 {
+    position: relative;
+    top: -250px;
+    display: inline-block;
+    width: 45%;
+    height: 500px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.pic2 {
+    background: url(./tipic1.jpg) center / cover;
+    height: 800px;
+    border-radius: 40px;
+}
+
+.text3 h2 {
+    text-align: center;
+    font-size: 38px;
+    color: honeydew;
+    padding-top: 250px;
+}
+
+.text4 {
+    text-align: center;
+    color: honeydew;
+    font-size: 2rem;
+}
+
+.screenshot img {
+    width: 1000px;
+    height: 500px;
+}
+
+.table table,
+th,
+td {
+    border: 1px solid black;
+    background: cornsilk;
+}
+
+.table td {
+    padding-left: 15px;
+    padding-right: 15px;
+    color: black;
+}
+
+.table a {
+    text-decoration: none;
+    color: black;
+}
+
+.sec2 h2 {
+    text-align: center;
+}
